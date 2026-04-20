@@ -1,0 +1,166 @@
+[
+    {
+        "id": 1,
+        "title": "Design landing page hero section",
+        "description": "Create a minimal, responsive hero section with CTA and illustration for the marketing website.",
+        "status": "in-progress",
+        "priority": "high",
+        "due_date": "2026-04-22",
+        "created_at": "2026-04-19T10:15:00Z",
+        "tags": [
+            "design",
+            "ui",
+            "frontend"
+        ],
+        "assigned_to": "Minhaj",
+        "estimated_hours": 6,
+        "progress": 45
+    },
+    {
+        "id": 2,
+        "title": "Fix authentication bug",
+        "description": "Resolve token refresh issue causing random logouts for mobile users.",
+        "status": "pending",
+        "priority": "urgent",
+        "due_date": "2026-04-21",
+        "created_at": "2026-04-18T08:40:00Z",
+        "tags": [
+            "bug",
+            "backend",
+            "auth"
+        ],
+        "assigned_to": "Rahim",
+        "estimated_hours": 4,
+        "progress": 10
+    },
+    {
+        "id": 3,
+        "title": "Write API documentation",
+        "description": "Document all endpoints with request/response examples for the developer portal.",
+        "status": "pending",
+        "priority": "medium",
+        "due_date": "2026-04-25",
+        "created_at": "2026-04-18T14:00:00Z",
+        "tags": [
+            "documentation",
+            "api"
+        ],
+        "assigned_to": "Nusrat",
+        "estimated_hours": 5,
+        "progress": 0
+    },
+    {
+        "id": 4,
+        "title": "Implement dark mode toggle",
+        "description": "Add theme switching with persistent state using local storage.",
+        "status": "completed",
+        "priority": "low",
+        "due_date": "2026-04-17",
+        "created_at": "2026-04-15T09:30:00Z",
+        "tags": [
+            "feature",
+            "frontend",
+            "theme"
+        ],
+        "assigned_to": "Minhaj",
+        "estimated_hours": 3,
+        "progress": 100
+    },
+    {
+        "id": 5,
+        "title": "Optimize image loading",
+        "description": "Use lazy loading and compression to improve page performance score.",
+        "status": "in-progress",
+        "priority": "medium",
+        "due_date": "2026-04-23",
+        "created_at": "2026-04-17T16:20:00Z",
+        "tags": [
+            "performance",
+            "frontend"
+        ],
+        "assigned_to": "Sadia",
+        "estimated_hours": 4,
+        "progress": 60
+    },
+    {
+        "id": 6,
+        "title": "Set up CI/CD pipeline",
+        "description": "Configure automated testing and deployment using GitHub Actions.",
+        "status": "pending",
+        "priority": "high",
+        "due_date": "2026-04-26",
+        "created_at": "2026-04-19T12:45:00Z",
+        "tags": [
+            "devops",
+            "automation"
+        ],
+        "assigned_to": "Rahim",
+        "estimated_hours": 8,
+        "progress": 0
+    },
+    {
+        "id": 7,
+        "title": "User profile page redesign",
+        "description": "Redesign profile page with modern card layout and improved accessibility.",
+        "status": "in-progress",
+        "priority": "high",
+        "due_date": "2026-04-24",
+        "created_at": "2026-04-18T11:10:00Z",
+        "tags": [
+            "ui",
+            "ux",
+            "frontend"
+        ],
+        "assigned_to": "Minhaj",
+        "estimated_hours": 7,
+        "progress": 35
+    },
+    {
+        "id": 8,
+        "title": "Database indexing",
+        "description": "Add indexes to frequently queried fields to reduce response time.",
+        "status": "pending",
+        "priority": "medium",
+        "due_date": "2026-04-28",
+        "created_at": "2026-04-16T13:55:00Z",
+        "tags": [
+            "database",
+            "backend"
+        ],
+        "assigned_to": "Nusrat",
+        "estimated_hours": 6,
+        "progress": 0
+    },
+    {
+        "id": 9,
+        "title": "Create onboarding tutorial",
+        "description": "Design a step-by-step interactive guide for first-time users.",
+        "status": "pending",
+        "priority": "low",
+        "due_date": "2026-04-30",
+        "created_at": "2026-04-19T15:05:00Z",
+        "tags": [
+            "ux",
+            "guide"
+        ],
+        "assigned_to": "Sadia",
+        "estimated_hours": 5,
+        "progress": 0
+    },
+    {
+        "id": 10,
+        "title": "Refactor reusable components",
+        "description": "Clean up duplicated UI components and create a shared component library.",
+        "status": "in-progress",
+        "priority": "high",
+        "due_date": "2026-04-27",
+        "created_at": "2026-04-17T10:25:00Z",
+        "tags": [
+            "refactor",
+            "frontend"
+        ],
+        "assigned_to": "Minhaj",
+        "estimated_hours": 9,
+        "progress": 50
+    }
+]
