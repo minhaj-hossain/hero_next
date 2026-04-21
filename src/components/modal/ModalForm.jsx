@@ -1,7 +1,7 @@
 "use client";
 
 import { Envelope } from "@gravity-ui/icons";
-import { Button, Input, Label, Modal, Surface, TextField } from "@heroui/react";
+import { Button, Input, Label, Modal, Surface, TextField, Select, ListBox, Description } from "@heroui/react";
 
 export function ModalForm({ createATask }) {
     return (
@@ -25,25 +25,43 @@ export function ModalForm({ createATask }) {
                             <Surface variant="default">
                                 <form action={createATask} className="flex flex-col gap-4">
                                     <TextField className="w-full" type="text">
-                                        <Label>Name</Label>
-                                        <Input name="name" placeholder="Enter your name" />
+                                        <Label>Title</Label>
+                                        <Input name="title" placeholder="Enter your task title" />
                                     </TextField>
-                                    <TextField className="w-full" type="email">
-                                        <Label>Email</Label>
-                                        <Input name="email" placeholder="Enter your email" />
+                                    <TextField className="w-full" type="text">
+                                        <Label>description</Label>
+                                        <Input name="description" placeholder="Enter  description" />
                                     </TextField>
-                                    <TextField className="w-full" name="phone" type="tel">
-                                        <Label>Phone</Label>
-                                        <Input placeholder="Enter your phone number" />
+                                    <TextField className="w-full" name="assigned_to" type="tel">
+                                        <Label>Assigned to</Label>
+                                        <Input placeholder="Assignee" />
                                     </TextField>
-                                    <TextField className="w-full" name="company">
-                                        <Label>Company</Label>
-                                        <Input placeholder="Enter your company name" />
-                                    </TextField>
-                                    <TextField className="w-full" name="message">
-                                        <Label>Message</Label>
-                                        <Input placeholder="Enter your message" />
-                                    </TextField>
+                                    <Select name='priority' className="w-[256px]" placeholder="Select one">
+                                        <Label>Priority</Label>
+                                        <Select.Trigger>
+                                            <Select.Value />
+                                            <Select.Indicator />
+                                        </Select.Trigger>
+                                        <Select.Popover>
+                                            <ListBox>
+                                                <ListBox.Item id="medium" textValue="Medium">
+                                                    Medium
+                                                    <ListBox.ItemIndicator />
+                                                </ListBox.Item>
+                                                <ListBox.Item id="high" textValue="high">
+                                                    High
+                                                    <ListBox.ItemIndicator />
+                                                </ListBox.Item>
+                                                <ListBox.Item id="urgent" textValue="Urgent">
+                                                    Urgent
+                                                    <ListBox.ItemIndicator />
+                                                </ListBox.Item>
+
+                                            </ListBox>
+                                        </Select.Popover>
+                                        <Description>Select your priority</Description>
+                                    </Select>
+
                                     <Modal.Footer>
                                         <Button variant="secondary">
                                             Cancel
